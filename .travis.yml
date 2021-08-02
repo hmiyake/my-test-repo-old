@@ -1,0 +1,6 @@
+languarge: python
+python:
+  - "2.7"
+script:
+- test "$(./ui.py + 1 2)" = "0.5"
+- test "$(./ui.py + 3 1)" = "3.0"

@@ -11,7 +11,7 @@ def main():
   val1 = float(val1)
   val2 = float(val2)
 
-  print calc.calc_wari(val1,val2)
+  print (calc.calc_wari(val1,val2))
 
 if __name__ == "__main__":
     main()
